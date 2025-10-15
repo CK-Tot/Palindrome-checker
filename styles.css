@@ -13,4 +13,80 @@ body {
    align-items: center;
    min-height: 100vh;
    font-family: 'Roboto', sans-serif;
+   background: #74c0fc;
+   color: #333;
+}
+
+
+.container {
+    width: 550px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+p {
+
+    font-size: 1.1rem;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 20px 0;
+    outline: none;
+}
+
+.check-btn {
+    padding: 12px 18px;
+    font-size: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 5px rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+    /* transform: scale(1px); */
+    cursor: pointer;
+}
+
+
+.check-btn:hover {
+    transform: translateY(-4px);
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    min-height: 25px;
+}
+
+.examples {
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+.examples h3 {
+    font-size: 1.1rem;
+}
+
+.examples ul {
+    list-style: none;
+}
+
+.examples li {
+    padding: 6px 0;
+    color: #444;
 }
